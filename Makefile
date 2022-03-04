@@ -6,6 +6,8 @@ hello:hello.o
 hello.o:hello.c
 	cc -c hello.c
 
+.PHONY:clean 
+
 clean:
 	rm -f *.o
 	rm -f hello
