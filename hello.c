@@ -1,7 +1,7 @@
-#include <stdio.h>
 
+#include"hello.h"
 int main(int argc, char*argv[]){
-	printf("Hello!!, World....version2 \n");
+	imprime();
 	return 0;
 
 
